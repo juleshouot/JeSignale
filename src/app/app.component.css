@@ -1,0 +1,21 @@
+/* app.component.css */
+
+/* Styles généraux */
+.main-layout {
+    display: flex; /* Utilisation de flexbox */
+    height: calc(100vh - 80px); /* Ajustez selon la hauteur de votre header */
+  }
+  
+  router-outlet {
+    flex: 1; /* Prend tout l'espace disponible */
+    padding: 20px; /* Ajoute un peu de padding */
+  }
+  
+  app-map {
+    width: 4000px; /* Largeur de la carte */
+    padding: 20px; /* Padding autour de la carte */
+    border-left: 1px solid #ccc; /* Bordure à gauche pour séparer la carte */
+    background-color: #f9f9f9; /* Fond gris clair */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+  }
+  
